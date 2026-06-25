@@ -19,6 +19,7 @@ spec:
       containers:
       - name: nginx-demo
         image: mohdsharik/k8s-demo:v1
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 80
